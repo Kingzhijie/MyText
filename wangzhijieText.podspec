@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "wangzhijieText"
-  s.version      = "0.0.1"
+  s.version      = "0.0.4"
   s.summary      = "一个很简单的工具"
 
   # This description is used to generate tags and improve search results.
@@ -94,7 +94,7 @@ Pod::Spec.new do |s|
   s.source_files  = "MyText", "Extension/**/*.{swift}"
   # s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "Extension/**/*.swift"
+  # s.public_header_files = "Extension/**/*.swift"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

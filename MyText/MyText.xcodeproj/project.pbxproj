@@ -15,7 +15,8 @@
 		4CBEADE9212BE1CF00DADC7B /* MyTextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBEADE8212BE1CF00DADC7B /* MyTextTests.swift */; };
 		4CBEADF4212BE1CF00DADC7B /* MyTextUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBEADF3212BE1CF00DADC7B /* MyTextUITests.swift */; };
 		4CBEAE03212C075100DADC7B /* MBScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBEAE02212C075100DADC7B /* MBScale.swift */; };
-		4CE30D95212D00520016E189 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE30D94212D00520016E189 /* MyViewController.swift */; };
+		4CE30D97212D0FA80016E189 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE30D96212D0FA80016E189 /* MyViewController.swift */; };
+		4CE30D9B212D13CA0016E189 /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE30D9A212D13CA0016E189 /* Tool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +51,8 @@
 		4CBEADF3212BE1CF00DADC7B /* MyTextUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextUITests.swift; sourceTree = "<group>"; };
 		4CBEADF5212BE1CF00DADC7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CBEAE02212C075100DADC7B /* MBScale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBScale.swift; sourceTree = "<group>"; };
-		4CE30D94212D00520016E189 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		4CE30D96212D0FA80016E189 /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		4CE30D9A212D13CA0016E189 /* Tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,8 +135,9 @@
 		4CBEAE01212C075100DADC7B /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				4CE30D96212D0FA80016E189 /* MyViewController.swift */,
 				4CBEAE02212C075100DADC7B /* MBScale.swift */,
-				4CE30D94212D00520016E189 /* MyViewController.swift */,
+				4CE30D9A212D13CA0016E189 /* Tool.swift */,
 			);
 			name = Extension;
 			path = ../Extension;
@@ -273,7 +276,8 @@
 			files = (
 				4CBEAE03212C075100DADC7B /* MBScale.swift in Sources */,
 				4CBEADD6212BE1CC00DADC7B /* ViewController.swift in Sources */,
-				4CE30D95212D00520016E189 /* MyViewController.swift in Sources */,
+				4CE30D97212D0FA80016E189 /* MyViewController.swift in Sources */,
+				4CE30D9B212D13CA0016E189 /* Tool.swift in Sources */,
 				4CBEADD4212BE1CC00DADC7B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
