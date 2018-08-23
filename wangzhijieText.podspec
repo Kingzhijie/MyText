@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "wangzhijieText"
-  s.version      = "0.0.4"
+  s.version      = "0.0.7"
   s.summary      = "一个很简单的工具"
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,22 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "MyText", "Extension/**/*.{swift}"
+  s.source_files  = "Extension/**/*.{swift}"
+
+  s.subspec 'One' do |ss|
+    ss.source_files = 'Extension/One/*.{swift}'
+    # ss.source_files = 'Extension/Two/*.swift'
+  end
+
+  s.subspec 'Two' do |ss|
+    ss.source_files = 'Extension/Two/*.{swift}'
+    # ss.source_files = 'Extension/Two/*.swift'
+  end
+
+  # s.subspec 'Two' do |ss|
+  #   ss.source_files = 'Extension/Two/*.swift'
+  # end
+
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Extension/**/*.swift"
