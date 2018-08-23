@@ -94,12 +94,12 @@ Pod::Spec.new do |s|
   s.source_files  = "Extension/**/*.{swift}"
 
   s.subspec 'One' do |ss|
-    ss.source_files = 'Extension/One/*.{swift}'
+    ss.source_files = 'Extension/One/**/*.{swift}'
     # ss.source_files = 'Extension/Two/*.swift'
   end
 
   s.subspec 'Two' do |ss|
-    ss.source_files = 'Extension/Two/*.{swift}'
+    ss.source_files = 'Extension/Two/**/*.{swift}'
     # ss.source_files = 'Extension/Two/*.swift'
   end
 
