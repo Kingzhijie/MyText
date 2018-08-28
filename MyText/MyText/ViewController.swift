@@ -8,8 +8,6 @@
 
 import UIKit
 
-let Kwidth = UIScreen.main.bounds.width
-
 class ViewController: UIViewController {
 
     override func viewDidLoad() {

@@ -16,7 +16,6 @@ class MyViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let width = Kwidth
     }
 
     override func didReceiveMemoryWarning() {
